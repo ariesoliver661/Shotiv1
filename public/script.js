@@ -1,6 +1,6 @@
    async function getRandomVideo() {
       try {
-        const url = 'https://shoti-srv1.onrender.com/api/v1/get';
+        const url = 'https://shoti-srv1.onrender.com/api/v1/request-f';
         const rawResponse = await fetch(url, {
           method: 'POST',
           headers: {
